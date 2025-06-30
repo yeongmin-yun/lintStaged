@@ -1,0 +1,23 @@
+{
+  "name": "linting-test",
+  "version": "1.0.0",
+  "description": "test-lintStaged",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm test",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeongmin-yun/lintStaged.git"
+  },
+  "keywords": [
+    "lint"
+  ],
+  "author": "yeongmin-yun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeongmin-yun/lintStaged/issues"
+  },
+  "homepage": "https://github.com/yeongmin-yun/lintStaged#readme"
+}
