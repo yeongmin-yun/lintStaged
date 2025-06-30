@@ -376,6 +376,11 @@ if (!nexacro.SpinField)
         // this._updateButton();
     };
 
+    _pSpinField.testfunction = function ()
+    {
+        return true
+    }
+
     _pSpinField.on_fire_onspin = function (obj, pretext, prevalue, posttext, postvalue, isUp) 
     {
         return nexacro.Spin.prototype.on_fire_onspin.call(this, obj, pretext, prevalue, posttext, postvalue, isUp);
